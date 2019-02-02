@@ -9,8 +9,7 @@ $database = mysql_select_db('data') or die(mysql_error());
 if(isset($_POST['submit']))
 {
 $name=$_POST['name'];
-
-
+fgfdgfg
 
 $query=mysql_query("INSERT INTO sasa (name) VALUES ('$name')");
 
